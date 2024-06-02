@@ -107,7 +107,7 @@ class MainActivity : ComponentActivity() {
         val options = GmsDocumentScannerOptions.Builder()
             .setScannerMode(SCANNER_MODE_FULL)
             .setGalleryImportAllowed(true)
-            .setPageLimit(24)
+            .setPageLimit(18)
             .setResultFormats(RESULT_FORMAT_JPEG, RESULT_FORMAT_PDF)
             .build()
 
